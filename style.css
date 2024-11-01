@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Pacifico&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 15%;
+}
+body {
+    height: 100vh;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 50%;
+    width: 20%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.apresentacao__conteudos {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__nome {
+    font-size: 50px;
+}
+
+.apresentacao__bio {
+    font-size: 20px;
+}
+
+.apresentacao__apresentacao {
+    display: flex;
+    font-size: 15px;
+    font-family: "Roboto Slab", serif;
+}
+
+.cabecalho {
+    font-size: 30px;
+    text-align: start;
+    background: fixed;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.insta {
+    width: 115px;
+    height: 115px;
+    background: radial-gradient(circle at 30% 110%,
+        #ffdb8b 0%,
+        #ee653d 25%,
+        #d42e81 50%,
+        #a237b6 75%,
+        #3e57bc 100%);
+    border-radius: 37px;
+    box-shadow: 0px 15px 40px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s linear;
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+    color: white;
+}
+
+.insta:hover {
+    transform: translateY(-10px);
+}
+
+.twitter {
+    width: 115px;
+    height: 115px;
+    background: black;
+    border-radius: 37px;
+    display: flex;
+    box-shadow: 0px 15px 40px 1px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    transition: .2s linear;
+    text-decoration: none;
+    font-size: 100px;
+    color: white;
+}
+
+.twitter:hover {
+    transform: translateY(-10px);
+}
+
+.ghub {
+    width: 115px;
+    height: 115px;
+    background: black;
+    border-radius: 37px;
+    display: flex;
+    box-shadow: 0px 15px 40px 1px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    transition: .2s linear;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.ghub:hover {
+    transform: translateY(-10px);
+}
+
+.linkedin {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 115px;
+    height: 115px;
+    background: #0077B5;
+    border-radius: 37px;
+    display: flex;
+    box-shadow: 0px 15px 40px 1px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    transition: .2s linear;
+    text-decoration: none;
+    font-size: 100px;
+    color: white;
+}
+
+.linkedin:hover {
+    transform: translateY(-10px);
+}
